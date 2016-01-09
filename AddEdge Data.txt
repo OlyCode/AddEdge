@@ -1,0 +1,43 @@
+﻿AddEdge(forbidden graphs, starting graph)
+	= AE(F,S) and AE(F,n) = AE(F,Nn) = AE(F, comp Kn)
+
+e	n	|	K3	K4	K5	K6	K7	K8	K9	K10
+3	3	|	0	na	na	na	na	na	na	na
+6	4	|	0	1	na	na	na	na	na	na
+10	5	|	0	0	1	na	na	na	na	na
+15	6	|	1	0	1	0	na	na	na	na
+21	7	|	0	0	0	1	0	na	na	na
+28	8	|						1T	na	na
+36	9	|							1T	na
+45	10	|								0T			
+
+e	n	|	C3	C4	C5	C6	C7	C8	C9	C10
+3	3	|	0	na	na	na	na	na	na	na
+6	4	|	0	0	na	na	na	na	na	na
+10	5	|	0	1	1	na	na	na	na	na
+15	6	|	1	1	1	1	na	na	na	na
+21	7	|	0	1	0	1	0	na	na	na
+28	8	|							na	na
+36	9	|								na
+45	10	|								
+
+e	n	|	P3	P4	P5	P6	P7	P8	P9	P10
+3	3	|	1	na	na	na	na	na	na	na
+6	4	|	0	0	na	na	na	na	na	na
+10	5	|	0	0	0	na	na	na	na	na
+15	6	|	1	0	1	1	na	na	na	na
+21	7	|	1	1	1	1	1	na	na	na
+28	8	|	0	1	0	1			na	na
+36	9	|	0							na
+45	10	|	1T		
+
+e	n	|	W3	W4	W5	W6	W7	W8	W9	W10
+3	3	|	1	na	na	na	na	na	na	na
+6	4	|	0	0	na	na	na	na	na	na
+10	5	|	0	0	1	na	na	na	na	na
+15	6	|	1	1	1	1	na	na	na	na
+21	7	|						na	na	na
+28	8	|							na	na
+36	9	|								na
+45	10	|								
+
